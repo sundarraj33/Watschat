@@ -1,0 +1,15 @@
+body{
+  background-color: red;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  justify-content: center;
+  /* align-items: center; */
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
