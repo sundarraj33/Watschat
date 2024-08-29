@@ -7,9 +7,18 @@ body{
   width: 40%;
   margin: 0 auto;
   justify-content: center;
-  /* align-items: center; */
+  align-content: center;
 }
-.box{
+/* .box{
   display: flex;
   flex-direction: column;
+  /* align-items: ce; */
+.input-filed{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.inputfield{
+  background-color: red;
+  
 }
