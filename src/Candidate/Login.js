@@ -1,14 +1,10 @@
 import '../App.css';
-const Register = ()=>{
+const Login = ()=>{
     return(
         <>
             <div className="container">
                 <div className="wrapper border border-dark">
-                    <div className="box border border-dark " >
-                       <div className='input-filed'>
-                            <label className='text-light h5' >Name</label>
-                            <input type='' className='border border-0 inputfield border-bottom' maxlength="30"></input>
-                        </div>
+                    <div className="box border border-dark " >                       
                         <div className='input-filed'>
                             <label className='text-light h5'>Mobile</label>
                             <input type='' maxlength="10" className='border border-0 inputfield border-bottom'></input>
@@ -29,4 +25,4 @@ const Register = ()=>{
     )
 }
 
-export default Register;
+export default Login;
