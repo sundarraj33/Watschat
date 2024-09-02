@@ -8,6 +8,12 @@ const Main_chat = ()=>{
                     <label className="text-light">Sundar</label>
                 </div>
             </div>
+
+            <div className="chat-body">
+                <div className="chat-box">
+                    <p>hello</p>
+                </div>
+            </div>
             </div>
         </>
     )
