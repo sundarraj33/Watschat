@@ -1,13 +1,29 @@
 body{
-  background-color: red;
+  background-color: #151B54;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
 }
 .wrapper{
+  /* display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 30vh;
+  margin: auto;
+  justify-content: center;
+  align-content: center; */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 300px;
+background: whitesmoke;
+border-radius: 1px solid black;
+}
+.box{
   display: flex;
   flex-direction: column;
-  width: 40%;
-  margin: 0 auto;
-  justify-content: center;
-  align-content: center;
 }
 /* .box{
   display: flex;
@@ -20,5 +36,6 @@ body{
 }
 .inputfield{
   background-color: red;
+  outline: none;
   
 }
